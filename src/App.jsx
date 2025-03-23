@@ -6,6 +6,7 @@ import Home from "./pagina/Home";
 import LoginPage from "./pagina/LoginPage";
 import RegisterPage from "./pagina/RegisterPage";
 import Cart from "./pagina/Cart";
+import Pizza from "./pagina/Pizza";
 
 function App() {
   return (
@@ -17,11 +18,11 @@ function App() {
       {
         // pagina
       }
-      {<Home />}
+      {/*<Home />*/}
       {/*<LoginPage />*/}
       {/*<RegisterPage />*/}
       {/*<Cart />*/}
-
+      {<Pizza />}
       {
         //pie de pagina
       }
